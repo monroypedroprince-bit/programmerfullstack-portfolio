@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "IP Monitor",
+  "description": "Monitor your public IP and receive a notification when it changes.",
+  "version": "1.0.0",
+  "action": {
+    "default_title": "IP Monitor",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications",
+    "offscreen"
+  ],
+  "host_permissions": [
+    "https://api.ipify.org/*",
+    "https://ifconfig.me/*"
+  ],
+  "icons": {
+    "16": "ip-monitor-icon.png",
+    "48": "ip-monitor-icon.png",
+    "128": "ip-monitor-icon.png"
+  }
+}

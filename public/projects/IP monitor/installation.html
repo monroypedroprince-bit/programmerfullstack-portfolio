@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#030b17" />
+    <title>Install IP Monitor</title>
+    <style>
+      *{box-sizing:border-box}body{margin:0;min-height:100vh;padding:28px;background:#030b17;color:#f4f8ff;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background-image:radial-gradient(ellipse at 80% 0,#0755a52b,transparent 45%)}main{width:min(840px,100%);margin:0 auto}.brand{display:flex;align-items:center;gap:17px;margin-bottom:22px}.brand img{width:76px;height:76px;object-fit:contain}.brand h1{font-size:28px;margin:0}.brand a{color:inherit;text-decoration:none}.card{border:1px solid #14527f;border-radius:23px;padding:clamp(20px,4vw,38px);background:linear-gradient(145deg,#071629,#041020);box-shadow:0 20px 70px #0007}.eyebrow{color:#17c5f3;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}h2{font-size:clamp(27px,5vw,40px);margin:8px 0 10px;letter-spacing:-1px}.intro{color:#c2d3e6;font-size:16px;line-height:1.7;margin:0 0 25px}.step{display:grid;grid-template-columns:42px 1fr;gap:15px;padding:19px 0;border-top:1px solid #183650}.number{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;color:#fff;font-weight:800;background:linear-gradient(135deg,#0bc7f0,#075be6)}.step h3{margin:2px 0 7px;font-size:17px}.step p,.step li{color:#b9cbdf;line-height:1.65;margin:0}.step ol{margin:8px 0 0;padding-left:20px}.actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:25px}.button{min-height:45px;padding:0 17px;border-radius:12px;border:1px solid #2784cc;background:linear-gradient(110deg,#08bdeb,#075be6);display:inline-flex;align-items:center;justify-content:center;gap:9px;color:#fff;font-weight:800;text-decoration:none}.button.secondary{background:#0b1d31;border-color:#456680}.notice{margin-top:23px;padding:14px 16px;border:1px solid #17466a;border-radius:13px;background:#081b2d;color:#b9cbdf;line-height:1.6;font-size:13px}code{color:#d9edff;background:#0d253d;border-radius:5px;padding:2px 5px}@media(max-width:520px){body{padding:15px}.brand img{width:58px;height:58px}.brand h1{font-size:22px}.intro{font-size:14px}.step{grid-template-columns:34px 1fr;gap:11px}.number{width:32px;height:32px}}
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand"><img src="./ip-monitor-logo.webp" alt=""/><a href="./"><h1>IP Monitor</h1></a></div>
+      <section class="card">
+        <span class="eyebrow">Browser extension</span>
+        <h2>Install IP Monitor</h2>
+        <p class="intro">Use IP Monitor in Chrome, Edge, Brave, or Opera to keep checking your public IP in the background and receive a browser notification when it changes.</p>
+        <div class="step"><span class="number">1</span><div><h3>Download and extract the ZIP</h3><p>Download the extension package and extract it into a folder on your computer. Keep the files together so the browser can read <code>manifest.json</code>.</p></div></div>
+        <div class="step"><span class="number">2</span><div><h3>Open your browser's extensions page</h3><p>Enter <code>chrome://extensions</code>, <code>edge://extensions</code>, <code>brave://extensions</code>, or <code>opera://extensions</code> in the address bar.</p></div></div>
+        <div class="step"><span class="number">3</span><div><h3>Load the extension folder</h3><ol><li>Turn on <strong>Developer mode</strong>.</li><li>Select <strong>Load unpacked</strong>.</li><li>Choose the extracted IP Monitor folder that contains <code>manifest.json</code>.</li></ol></div></div>
+        <div class="step"><span class="number">4</span><div><h3>Start monitoring</h3><p>Open IP Monitor from your browser's extension menu, start monitoring, and enable sound alerts if you want an audible notification.</p></div></div>
+        <div class="actions"><a class="button" href="./ip-monitor-extension.zip" download>↓　Download extension ZIP</a><a class="button secondary" href="./">Open IP Monitor</a></div>
+        <p class="notice">Browser extensions outside their official stores require manual installation. The ZIP downloads the extension files; it does not install them automatically.</p>
+      </section>
+    </main>
+  </body>
+</html>

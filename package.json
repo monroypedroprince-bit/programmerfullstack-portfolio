@@ -1,0 +1,1 @@
+{"name":"pedro-luis-prince-monroy-portfolio","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"@vitejs/plugin-react":"latest","devicon":"^2.18.0","lucide-react":"latest","react":"latest","react-dom":"latest","simple-icons":"^16.36.0","vite":"latest"}}
